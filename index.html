@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="estilo.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Desarrollo de Software</title>
+</head>
+<body>
+    <header>
+
+        <h1 class="title"><i> Programadores  <br><samp style="color: #b787ee;"> vs </samp> <br> Desarrolladores</i></h1>
+    </header>
+    <div class="contenedor">
+    
+        <div class="conceptos">
+            <button id="btn-abrir-popup" type="button" class="btn2" class="btn2">Programador</button> 
+            </div>
+            <div class="conceptos">
+                <button id="btn-abrir-popup2" type="button" class="btn2"> Desarrollador</button>
+            </div>
+            <div class="conceptos">
+                <button id="btn-abrir-popup3" type="button" class="btn2">Desarrollador <br> Front-End</button>
+            </div>
+            <div class="conceptos">
+                <button type="button" class="btn2" class="btn-abrir-popup" id="btn-abrir-popup4">Desarrollador <br> Back-End</button>
+            </div>
+        
+    </div>
+    <div id="overlay" class="overlay">
+        <div id="popup" class="popup">
+            <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <img class="img" src="./img/programador.jpg">
+            <h3><br><b>Programador</b> </h3>
+            <p>Un programador es un profesional que escribe o crea código para aplicaciones informáticas o software. Es el que proporciona instrucciones específicas relacionadas con la programación.</p>
+            <p>Este perfil profesional tiene que pensar activamente en soluciones, antes de comenzar a codificar. Cuentan con una sólida experiencia en codificación y computación en varios lenguajes de programación como: <b> SQL, PHP, HTML, JAVA, XML, C y C ++. </b></p>
+            <p>El programador tiene la ventaja de ser un experto en múltiples campos, como bases de datos, desarrollo web, desarrollo de seguridad etc. En función de sus habilidades de programación y áreas de experiencia, pueden optar por especializarse como programadores de aplicaciones, de sistemas, Inteligencia Artificial y Machine Learning o programadores de videojuegos.</p>
+        </div>
+    </div>
+    <div id="overlay2" class="overlay">
+        <div id="popup2" class="popup">
+            <a href="#" id="btn-cerrar-popup2" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <img class="img" src="./img/desarrollador-web.jpg">
+            <h3><br><b>Desarrollador web</b> </h3>
+            <p>Un <b> Desarrollador Web </b> es un profesional del software que escribe, administra y depura el código de los programas para medios computacionales. El desarrollador normalmente se especializa en un tipo específico de lenguaje de programación y también gestiona otras tareas relacionadas con la creación, modificación y administración del software, tales como la documentación, la arquitectura, las bases de datos y la experiencia de usuario. También tiene habilidades de diseño y gestión de los proyectos de software</p>
+        </div>
+    </div>
+    <div id="overlay3" class="overlay">
+        <div id="popup3" class="popup">
+            <a href="#" id="btn-cerrar-popup3" class="btn-cerrar-popup"><i class="fas fa-times"></i></a>
+            <img class="img" src="./img/frontend.jpg">
+            <h3><br><b>Desarrollador Front-end:</b> </h3>
+            <p>Un <b>Desarrollador Front-End </b> diseña y construye los elementos necesarios para la experiencia de usuario en una página web o aplicación móvil que incluye botones, menús, páginas, enlaces, gráficos y más. 
+                El front-end también conocido como del “lado del cliente”, se construye usando una combinación de tecnologías tales como el Lenguaje De Marcado de Hipertexto (HTML), Javascript y Hojas de Estilo en Cascada (CSS). 
+                </p>
+        </div>
+    </div>
+    <div class="overlay" id="overlay4">
+        <div class="popup" id="popup4">
+            <a href="#" id="btn-cerrar-popup4" class="btn-cerrar-popup4"><i class="fas fa-times"></i></a>
+            <img class="img" src="./img/backend.jpg">
+            <h3><br><b>Desarrollador Back-end:</b> </h3>
+            <p>Para un  <b>Desarrollador Back-End</b> su principal preocupación es crear las aplicaciones que puedan encontrar y enviar datos al front-end. </p>
+            <p>Muchos desarrolladores back-end usan bases de datos confiables a nivel empresarial como <b>Oracle, Microsoft SQL Server, SAP Sybase</b>, entro otros. Tabien se incluye el uso de otras bases de datos populares como <b>MySQL, PostgreSQL y NoSQL</b>
+                <br>
+            <p>El back-end también llamado del “lado del servidor”, consiste de el servidor que provee los datos a petición, la aplicación que los canaliza y la base de datos que organiza la información</p>
+                <br>
+            </p>
+        </div>
+    </div>
+
+<script src="popup.js"></script>
+</body>
+
+</html>
