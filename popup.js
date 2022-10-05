@@ -14,7 +14,6 @@
 
 //     }
 //     btn.addEventListener('click',show, true)
-console.log('hola petter');
 
 let btnAbrirPopup = document.getElementById("btn-abrir-popup"),
 	overlay = document.getElementById("overlay"),
